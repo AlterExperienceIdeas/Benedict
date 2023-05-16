@@ -80,7 +80,7 @@ namespace VarjoExample
 
                 for (int i = 1; i < pointsOnArc; i++)
                 {
-                    float t = i * 1f / pointsOnArc;
+                    float t = i * 3f / pointsOnArc;
                     Vector3 point = GetPointFromArc(teleportPointer.position, forwardVelocity + controllerPitchEffect, trackingSpaceGravity, t);
 
                     if (Physics.Linecast(lastPoint, point, out hit, teleportableLayers))
@@ -139,6 +139,8 @@ namespace VarjoExample
 
         void Teleport()
         {
+            if(!canTeleport)
+                return;
             // Teleport relative to head position to avoid spatial confusion
             Vector3 userOffsetFromTrackingOrigin = xrRig.position - mainCamera.position;
             userOffsetFromTrackingOrigin.y = 0;

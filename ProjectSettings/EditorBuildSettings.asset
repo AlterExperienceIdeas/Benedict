@@ -9,6 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/DTCAreena.unity
     guid: 8124e5870f4fd4c779e7a5f994e84ad1
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f29e5b5f5445a74c869ca0402c78fd0,
+      type: 2}
     Varjo.XR.Settings: {fileID: 11400000, guid: 4cdf958415e1dfc469e99a97961d43ec,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 894c34056ccecda418582d3c44d192b7,

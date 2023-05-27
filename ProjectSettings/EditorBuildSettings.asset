@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/DTCAreena.unity
-    guid: 8124e5870f4fd4c779e7a5f994e84ad1
+    path: Assets/Scenes/DTCAreena OpenXR.unity
+    guid: b919d7f80dc67cd40a23024d39973d82
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 0f29e5b5f5445a74c869ca0402c78fd0,
       type: 2}
